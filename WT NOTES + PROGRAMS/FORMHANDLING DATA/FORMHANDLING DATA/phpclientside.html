@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>
+      Client-side data validation
+    </title>
+
+    <script language="javascript">
+
+      function check_data()
+      {
+        var regexp = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/
+        var result = document.form1.date.value.match(regexp)
+        if (result == null) {
+          alert("Please enter a date in dd/mm/yyyy format.");
+          document.form1.text1.value = "";
+          return false;
+        } else {
+          document.form1.submit();
+          return true;
+        }
+      }
+    </script>
+  </head>
+ 
+  <body>
+    <h1>
+      Client-side data validation
+    </h1>
+    <form name="form1" action="script.php" method="post" 
+      onsubmit="javascript:return check_data()">
+      Please enter your birthday (mm/dd/yyyy):
+        <input type="text" name="date">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+<html>

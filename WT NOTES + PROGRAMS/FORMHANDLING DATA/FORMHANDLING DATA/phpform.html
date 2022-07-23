@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>
+      Dumping form data
+    </title>
+  </head>
+
+  <body>
+   <h1>Dumping form data</h1>
+
+     <form method="post" action="phpform.php">
+     How old are you?<input name="age" type="text">
+     <br>
+     <br>
+     How many siblings do you have?<input name="number_siblings" type="text">
+     <br>
+     <br>
+     Select your favorite ice cream flavor(s):
+     <select name="ice_cream[]" multiple>
+            <option>Vanilla</option>
+            <option>Chocolate</option>
+            <option>Strawberry</option>
+            <option>Sardine</option>
+     </select>
+     <br>
+     <br>
+     <input type="submit" value="Submit">
+     </form>
+  </body>
+</html>
