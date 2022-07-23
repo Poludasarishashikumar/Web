@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar
+{
+    background-color: red;
+    width:21vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vw;
+}
+.sidebar nav{
+    padding:20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 26px;
+    padding:17px 0;
+}
+.main{
+    background-color: yellow;
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgba(38, 0, 255, 0.849);
+    height:240vh;
+    width:373vh;
+    margin: 63px 55px;
+}
+.devPic img{
+    width: 134px;
+}

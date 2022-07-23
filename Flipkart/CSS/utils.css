@@ -1,0 +1,12 @@
+.flex-all-center{
+    text-align:center;
+}
+.btn{
+    padding:5px;
+    color:white;
+    background: var(--main-bg-color);
+    border:2px solid white;
+    border-radius: 7px;
+    cursor:pointer;
+}
+

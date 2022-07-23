@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+        }
+        .showcase{
+            width:100%;
+            height:100vh;
+            position:relative;
+        }
+        .showcase video{
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            object-fit: cover;
+        }
+        .title{
+            width:100%;
+            height:100%;
+            background-color: #000;
+            font-size: 100px;
+            color: #fff;
+            mix-blend-mode: multiply;
+            padding: 122px 20px 14px 220px;
+        }
+    </style>
+</head>
+<body>
+    <section class="showcase">
+        <video src="spid.mp4" autoplay loop muted></video>
+        <h1 class="title">SHASHIKUMAR</h1>
+    </section>
+</body>
+</html>
