@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+function funup(val)
+{
+if(val.length>0)
+document.getElementById('t1').style.borderColor="lightgreen";
+}
+function fun1()
+{
+txt=document.getElementById('t1').value
+if(txt.length==0)
+document.getElementById('t1').style.borderColor="red"
+document.getElementById('t2').style.borderColor="pink"
+}
+
+</script>
+<input type="text" id="t1"
+onkeyup="funup(this.value)">
+<input type="button" id="t2" value="submit" onclick="fun1()">
+</body>
+</html>

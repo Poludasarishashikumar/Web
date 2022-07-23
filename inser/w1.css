@@ -1,0 +1,27 @@
+*
+{
+margin:0;
+padding:0;
+}
+body
+{
+
+background:linear-gradient(45deg,#907397,#c799d3);
+}
+header
+{
+	background:black;
+	border-radius:30px;
+}
+span
+{
+	color:blue;
+}
+section .wep
+{
+	background:black;
+}
+div .sphere
+{
+	margin:-57px;
+}
